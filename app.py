@@ -17,6 +17,7 @@ def medical_insurance_prediction(input_data):
     prediction = loaded_model.predict(input_data_reshaped)
     print('the Charges will be : ')
     print(prediction)
+    return pridiction 
 
     
 def main():
