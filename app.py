@@ -21,11 +21,11 @@ def medical_insurance_prediction(input_data):
     
 def main():
     st.title("Medical Insurance Prediction")
-    age = st.text_input('Age')
-    sex = st.text_input('Sex (1->Male, 0->Female)')
-    bmi = st.text_input('Enter your BMI')
-    smoker = st.text_input('(1->Yes, 0->No)')
-    region = st.text_input('(3-> Southwest,2->Southeast,1->Northeast, 0->Northwest)')
+    age = st.text_input('Age :')
+    sex = st.text_input('Sex :(1->Male, 0->Female)')
+    bmi = st.text_input('Enter your BMI :')
+    smoker = st.text_input('Smoker : (1->Yes, 0->No)')
+    region = st.text_input('Region :(3-> Southwest,2->Southeast,1->Northeast, 0->Northwest)')
     children = st.text_input('Enter no. of your children')
     #available for prediction
     charges = ''
